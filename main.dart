@@ -57,9 +57,9 @@ class MyAppState extends State<MyApp> {
           Text(
             questions[questionIndex],
           ),
-          RaisedButton(child: Text('Black'), onPressed: answerQuestion),
-          RaisedButton(child: Text('Blue'), onPressed: answerQuestion),
-          RaisedButton(child: Text('White'), onPressed: answerQuestion),
+          RaisedButton(child: Text('Black'), onPressed: (){}),
+          RaisedButton(child: Text('Blue'), onPressed:() {}),
+          RaisedButton(child: Text('White'), onPressed:(){} ),
         ]),
       ),
     );
