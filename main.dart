@@ -52,7 +52,7 @@ class MyAppState extends State<MyApp> {
           title: const Text('Hehe App'),
         ),
         // ignore: prefer_const_literals_to_create_immutables
-        body: Container(child: generateList(),); 
+        body:
         Column(children: [
           Text(
             questions[questionIndex],
